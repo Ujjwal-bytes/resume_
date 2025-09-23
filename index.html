@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwal Jha - Elite Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-print-color-adjust: exact;
+            color-adjust: exact;
+        }
+        .section-divider {
+            height: 2px;
+            background-color: #e5e7eb;
+            width: 100%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        @media print {
+            body {
+                font-size: 11pt;
+                padding: 0;
+                margin: 0;
+            }
+            .max-w-4xl {
+                max-width: 21cm;
+                min-height: 29.7cm;
+                margin: 0 auto;
+                padding: 1.5cm;
+                box-shadow: none;
+                border: none;
+            }
+            header, main, section {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .section-divider {
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+            h2 {
+                font-size: 14pt;
+            }
+            h3 {
+                font-size: 12pt;
+            }
+            p, li {
+                font-size: 10pt;
+                line-height: 1.4;
+            }
+            .space-y-8 > :not([hidden]) ~ :not([hidden]) {
+                --tw-space-y-reverse: 0;
+                margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+                margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 p-2 sm:p-4 lg:p-8 print:p-0">
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-lg overflow-hidden print:shadow-none print:rounded-none border border-gray-200">
+        <!-- Header Section -->
+        <header class="bg-white text-gray-800 p-4 pb-4 text-center">
+            <h1 class="text-3xl sm:text-4xl font-bold tracking-wide text-gray-800">UJJWAL JHA</h1>
+            <p class="mt-1 text-lg text-gray-700">Full Stack Developer</p>
+            
+            <div class="flex flex-wrap justify-center items-center mt-4 text-sm text-gray-600 space-x-4 sm:space-x-6">
+                <div class="flex items-center space-x-1 mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    <span>Mumbai, Maharashtra</span>
+                </div>
+                <div class="flex items-center space-x-1 mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    <a href="mailto:ujha27986@gmail.com" class="hover:underline">ujha27986@gmail.com</a>
+                </div>
+                <div class="flex items-center space-x-1 mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17 1H7c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm-1 18H8V5h8v14z"/>
+                    </svg>
+                    <a href="tel:7770074667" class="hover:underline">7770074667</a>
+                </div>
+                <a href="https://www.linkedin.com/in/ujjwaljha01/" class="hover:underline flex items-center space-x-1 mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm1.5-12.268c-.966 0-1.75-.79-1.75-1.765s.784-1.765 1.75-1.765 1.75.79 1.75 1.765-.783 1.765-1.75 1.765zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://ujjwal-bytes.github.io/demoresume/" class="hover:underline flex items-center space-x-1 mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10-4.486-10-10-10zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/><path d="M11 12.983L6.002 10.15l-1.996.969L11 13.98l7-3.411v-1.942L11 8.525v4.458zM11 14.983L6.002 12.15l-1.996.969L11 15.98l7-3.411v-1.942L11 10.525v4.458z"/>
+                    </svg>
+                    <span>Portfolio</span>
+                </a>
+                <a href="https://github.com/ujjwal-bytes" class="hover:underline flex items-center space-x-1 mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.809 1.305 3.492.997.107-.775.418-1.305.762-1.605-2.665-.304-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.006.404 2.291-1.552 3.298-1.23 3.298-1.23.652 1.652.241 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.197-6.091 8.197-11.389 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content Sections -->
+        <main class="p-8 pt-6 space-y-8">
+            <!-- Professional Summary -->
+            <section>
+                <h2 class="text-xl font-bold tracking-wider text-gray-700">SUMMARY</h2>
+                <div class="section-divider"></div>
+                <p class="mt-2 text-sm text-gray-700 leading-relaxed">
+                    B.Sc. Computer Science graduate with expertise in MERN stack development. Skilled in building scalable web applications using React.js, Node.js, Express.js, and MongoDB. Strong problem-solving ability with a focus on clean code, performance, and delivering impactful solutions. Passionate about contributing to innovative tech projects in web development.
+                </p>
+            </section>
+
+            <!-- Technical Skills -->
+            <section>
+                <h2 class="text-xl font-bold tracking-wider text-gray-700">TECHNICAL SKILLS</h2>
+                <div class="section-divider"></div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2 text-sm text-gray-700">
+                    <div class="flex flex-col">
+                        <span class="font-semibold text-gray-900">Programming & Querying:</span>
+                        <span>JavaScript, HTML5, CSS3, SQL, MySQL, MongoDB, Mongoose</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-semibold text-gray-900">Frameworks & Libraries:</span>
+                        <span>React.js, Node.js, Express.js, Next.js, Redux</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-semibold text-gray-900">Styling & UI:</span>
+                        <span>Tailwind CSS, Bootstrap</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-semibold text-gray-900">Tools & Platforms:</span>
+                        <span>Git, GitHub, RESTful APIs, JWT, Postman, Cloudinary, Socket.IO, VS Code</span>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Additional Experience / Mentoring -->
+            <section>
+                <h2 class="text-xl font-bold tracking-wider text-gray-700">ADDITIONAL EXPERIENCE / MENTORING</h2>
+                <div class="section-divider"></div>
+                <div class="space-y-6 text-sm text-gray-700">
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-base text-gray-900">Web Development Instructor</h3>
+                            <span class="text-gray-500">Jul 2025 – Aug 2025</span>
+                        </div>
+                        <p class="text-gray-500 text-xs mt-1">Advantech Education Pvt. Ltd</p>
+                        <ul class="list-disc list-inside space-y-1 mt-2 pl-4">
+                            <li>Taught HTML, CSS, JavaScript, React.js, Node.js, and MongoDB to 20+ students.</li>
+                            <li>Guided students in building portfolio-ready full-stack projects like Job Portals and Social Apps.</li>
+                            <li>Mentored students in Git, REST APIs, and deployment best practices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section>
+                <h2 class="text-xl font-bold tracking-wider text-gray-700">PROJECTS</h2>
+                <div class="section-divider"></div>
+                <div class="space-y-6 text-sm text-gray-700">
+                    <div>
+                        <h3 class="font-bold text-base text-gray-900">Job Portal Application</h3>
+                        <p class="text-gray-500 text-xs mt-1">MERN Stack</p>
+                        <ul class="list-disc list-inside space-y-1 mt-2 pl-4">
+                            <li>Architected and developed a comprehensive recruitment platform with distinct student and recruiter roles and secure JWT authentication.</li>
+                            <li>Designed and implemented RESTful APIs and MongoDB schemas to manage job listings, company data, and application submissions.</li>
+                            <li>Integrated Cloudinary for efficient media asset management, ensuring seamless uploads for recruiter profiles.</li>
+                            <li>Managed complex application state and data flow with Redux and Redux Persist, enhancing user experience and responsiveness.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-base text-gray-900">Pixora – Social Media App</h3>
+                        <p class="text-gray-500 text-xs mt-1">MERN Stack</p>
+                        <ul class="list-disc list-inside space-y-1 mt-2 pl-4">
+                            <li>Engineered core social features, including a dynamic feed, user posts, likes, comments, and private messaging.</li>
+                            <li>Implemented real-time chat functionality and instant notifications using Socket.IO and WebSockets, enabling live user interaction.</li>
+                            <li>Optimized front-end performance, reducing initial load time by 40% and enhancing user interactivity.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Awards & Certifications -->
+            <section>
+                <h2 class="text-xl font-bold tracking-wider text-gray-700">AWARDS & CERTIFICATIONS</h2>
+                <div class="section-divider"></div>
+                <div class="mt-2 text-sm text-gray-700 space-y-4">
+                    <div>
+                        <h3 class="font-bold text-base text-gray-900">MERN Stack Development – Apna college</h3>
+                        <p class="text-gray-500 text-xs mt-1">2025</p>
+                        <p class="text-gray-700">Completed a full-stack Airbnb-clone web application, demonstrating skills in React.js, Node.js, Express.js, and MongoDB.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-base text-gray-900">Best Final Year Project – Shankar Narayan College</h3>
+                        <p class="text-gray-500 text-xs mt-1">2025</p>
+                        <p class="text-gray-700">Developed a full-stack Doctor Appointment Booking System (MERN, JWT, Razorpay, Cloudinary) with multi-role access (patient, doctor, admin), secure online payments, and admin/doctor dashboards.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section>
+                <h2 class="text-xl font-bold tracking-wider text-gray-700">EDUCATION</h2>
+                <div class="section-divider"></div>
+                <div class="mt-2 text-sm text-gray-700 space-y-4">
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="font-bold text-base text-gray-900">Shankar Narayan College, Mumbai</h3>
+                            <span class="text-gray-500">Graduated: 2025</span>
+                        </div>
+                        <p class="text-gray-700">B.Sc. Information Technology</p>
+                        <p class="text-xs text-gray-500">CGPA: 8.76 / 10</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
